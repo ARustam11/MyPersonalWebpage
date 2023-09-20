@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>My Personal Web Page</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body class="page-body">
+
+    <!-- Main header -->
+
+    <header class="main-header">
+
+        <!-- Main Navigation -->
+
+        <nav class="main-navigation"> 
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <h1>Welcome to the Personal Webpage of Rustam Ainetdinov!</h1> <!-- Main Heading -->
+        <img class="main-image" src="/Assets/Rustam.jpg" alt="Photo of Rustam Ainetdinov"> <!-- Main Image -->
+        <h2>About Me</h2><br>
+        <p>I am a driven and passionate individual with a strong background in management and a deep-rooted interest in the world of computer programming. My academic journey has been marked by a Bachelor's degree in Management from the State University of Management, coupled with hands-on experience in organizing and planning educational programs. Furthermore, I've ventured into the realm of software development, working closely with developers and engineers, which has ignited my passion for coding.<br>
+
+        In addition to my academic and professional pursuits, I've excelled in the realm of sports as a professional floorball player, showcasing my dedication, discipline, and ability to thrive under pressure.<br>
+            
+        I am now embarking on an exciting journey in the Computer Programming program at Georgian College, Toronto, with a vision to expand my technical skills and contribute to the dynamic world of software development. My journey is fueled by a commitment to continuous learning, innovation, and a desire to create solutions that bridge the gap between technology and management.</p>
+
+        <!-- Portfolio Section -->
+
+        <section class="portfolio-section">
+            <h2>Portfolio</h2>
+            <article class="portfolio-article">
+                <ul class="portfolio-list">
+                    <li>Mobile blood donation point "Hemoexpress"
+                        <figure>
+                            <img src="/Assets/Bus.jpg" alt="Mobile blood donation point">
+                            <figcaption>Fig.1 - Mobile blood donation</figcaption>
+                        </figure>
+                    </li>
+                    <li>Corporate design for Floorball Club
+                        <figure>
+                            <img src="/Assets/Spartak.jpeg" alt="Floorball Club Spartak Moscow">
+                            <figcaption>Fig.2 - Floorball Club Spartak Moscow</figcaption>
+                        </figure>
+                    </li>                    
+                    <li>Device for making germ-free bloodline connection
+                        <figure>
+                            <img src="/Assets/Vega.jpg" alt="Device for making germ-free bloodline connection">
+                            <figcaption>Fig.3 - Vega Magistral</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Contact Section -->
+
+        <section class="contact-section">
+            <h2>Contact Form</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    
+    <!-- Body Footer-->
+
+    <footer>
+        <p>&copy; 2023 My Personal Web Page</p>
+    </footer>
+    <script  src="script.js"></script>
+</body>
+</html>
